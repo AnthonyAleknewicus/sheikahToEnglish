@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legend of Zelda Translator</title>
+    <!--CSS Links-->
+    <link rel="stylesheet" href="./resources/css/styles.css">    
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <h1>Sheikah-to-English Translator</h1>
+        <div id="output">
+            <h2 id="translation"></h2>            
+        </div>
+
+        <button id="clear-button">
+            <p>CLEAR</p>
+        </button>
+
+        <div id="buttons">
+            <button id="letter-a" class="button letters">
+                <img src="./resources/images/A.png" alt="">
+            </button>
+            <button id="letter-b" class="button letters">
+                <img src="./resources/images/B.png" alt="">
+            </button>
+            <button id="letter-c" class="button letters">
+                <img src="./resources/images/C.png" alt="">
+            </button>
+            <button id="letter-d" class="button letters">
+                <img src="./resources/images/D.png" alt="">
+            </button>
+            <button id="letter-e" class="button letters">
+                <img src="./resources/images/E.png" alt="">
+            </button>
+            <button id="letter-f" class="button letters">
+                <img src="./resources/images/F.png" alt="">
+            </button>
+            <button id="letter-g" class="button letters">
+                <img src="./resources/images/G.png" alt="">
+            </button>
+            <button id="letter-h" class="button letters">
+                <img src="./resources/images/H.png" alt="">
+            </button>
+            <button id="letter-i" class="button letters">
+                <img src="./resources/images/I.png" alt="">
+            </button>
+            <button id="letter-j" class="button letters">
+                <img src="./resources/images/J.png" alt="">
+            </button>
+            <button id="letter-k" class="button letters">
+                <img src="./resources/images/K.png" alt="">
+            </button>
+            <button id="letter-dash" class="button punctuation">
+                <img src="./resources/images/0-DASH.png" alt="">
+            </button>
+            <button id="letter-l" class="button letters">
+                <img src="./resources/images/L.png" alt="">
+            </button>
+            <button id="letter-m" class="button letters">
+                <img src="./resources/images/M.png" alt="">
+            </button>
+            <button id="letter-n" class="button letters">
+                <img src="./resources/images/N.png" alt="">
+            </button>
+            <button id="letter-o" class="button letters">
+                <img src="./resources/images/O.png" alt="">
+            </button>
+            <button id="letter-p" class="button letters">
+                <img src="./resources/images/P.png" alt="">
+            </button>
+            <button id="letter-period" class="button punctuation">
+                <img src="./resources/images/0-PERIOD.png" alt="">
+            </button>
+            <button id="letter-q" class="button letters">
+                <img src="./resources/images/Q.png" alt="">
+            </button>
+            <button id="letter-r" class="button letters">
+                <img src="./resources/images/R.png" alt="">
+            </button>
+            <button id="letter-s" class="button letters">
+                <img src="./resources/images/S.png" alt="">
+            </button>
+            <button id="letter-t" class="button letters">
+                <img src="./resources/images/T.png" alt="">
+            </button>
+            <button id="letter-u" class="button letters">
+                <img src="./resources/images/U.png" alt="">
+            </button>
+            <button id="letter-exclamation" class="button punctuation">
+                <img src="./resources/images/0-EXCLAMATION.png" alt="">
+            </button>
+            <button id="letter-v" class="button letters">
+                <img src="./resources/images/V.png" alt="">
+            </button>
+            <button id="letter-w" class="button letters">
+                <img src="./resources/images/W.png" alt="">
+            </button>
+            <button id="letter-x" class="button letters">
+                <img src="./resources/images/X.png" alt="">
+            </button>
+            <button id="letter-y" class="button letters">
+                <img src="./resources/images/Y.png" alt="">
+            </button>
+            <button id="letter-z" class="button letters">
+                <img src="./resources/images/Z.png" alt="">
+            </button>
+            <button id="letter-question" class="button punctuation">
+                <img src="./resources/images/0-QUESTION-MARK.png" alt="">
+            </button>
+            <button id="letter-one" class="button numbutton numbers">
+                <img src="./resources/images/01.png" alt="">
+            </button>
+            <button id="letter-two" class="button numbutton numbers">
+                <img src="./resources/images/02.png" alt="">
+            </button>
+            <button id="letter-three" class="button numbutton numbers">
+                <img src="./resources/images/03.png" alt="">
+            </button>
+            <button id="letter-four" class="button numbutton numbers">
+                <img src="./resources/images/04.png" alt="">
+            </button>
+            <button id="letter-five" class="button numbutton numbers">
+                <img src="./resources/images/05.png" alt="">
+            </button>
+            <button id="letter-six" class="button numbutton numbers">
+                <img src="./resources/images/06.png" alt="">
+            </button>
+            <button id="letter-seven" class="button numbutton numbers">
+                <img src="./resources/images/07.png" alt="">
+            </button>
+            <button id="letter-eight" class="button numbutton numbers">
+                <img src="./resources/images/08.png" alt="">
+            </button>
+            <button id="letter-nine" class="button numbutton numbers">
+                <img src="./resources/images/09.png" alt="">
+            </button>
+            <button id="letter-zero" class="button numbutton numbers">
+                <img src="./resources/images/00.png" alt="">
+            </button>
+        </div>
+    </div>
+</body>
+
+<script src="./resources/js/main.js"></script>
+</html>
